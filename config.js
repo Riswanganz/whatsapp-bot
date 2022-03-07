@@ -15,12 +15,12 @@ let fs = require('fs')
 let chalk = require('chalk')
 
 //global.mod = JSON.parse(fs.readFileSync('./src/moderator.json')) 
-global.owner = ['6281284760551', '6281284760551'] // Your Number
+global.owner = ['6283804343232', '6283804343232'] // Your Number
 global.prems = JSON.parse(fs.readFileSync('./src/premium.json')) // Pengguna premium tidak memerlukan limit
 
 global.APIs = { // API Prefix
-  // nama: 'https://website'
-  rey: 'https://api.reysekha.xyz', // CHANGED TO https://reysekhaa.herokuapp.com
+  // nama: 'APIKEY'
+  rey: 'https://reysekhaa.herokuapp.com', // CHANGED TO https://reysekhaa.herokuapp.com
   hardianto: 'https://hardianto.xyz',
   jonaz: 'https://jonaz-api-v2.herokuapp.com',
   neoxr: 'https://api.neoxr.eu.org',
@@ -49,16 +49,16 @@ global.APIKeys = { // APIKey in here
 
 
 // Sticker WM
-global.packname = '© erza bot'
-global.author = 'ig @_sekhaa'
+global.packname = '© Wanz'
+global.author = 'Wanz'
 
-global.wm = '© reysekha'
+global.wm = '© Wanz'
 global.wait = '⏳ tunggu permintaan kamu sedang di proses...'
 global.eror = '× Upss Erorr silahkan lapor owner'
 global.benar = '✓'
 global.salah = '×'
 global.dikit = 'hampir benar'
-global.footer = '© sekha'
+global.footer = '© Wanz'
 global.lw = 'https://reysekhaa.herokuapp.com/api/textpro/greenhoror?apikey=apirey&text='
 global.reyganz= 'https://reysekhaa.herokuapp.com/api/wallpaper/ukhty?apikey='
 
