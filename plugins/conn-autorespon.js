@@ -12,8 +12,8 @@ handler.all = async function (m, { conn, isBlocked }) {
     if (m.isGroup) {
         if (m.mentionedJid.includes(this.user.jid)) {
             await this.send2Button(m.chat,
-                isBanned ? 'erza tidak aktif' : banned ? 'kamu dibanned' : 'erza sudah aktif',
-                '© sekha',
+                isBanned ? 'Wanz tidak aktif' : banned ? 'kamu dibanned' : 'Wanz sudah aktif',
+                '© Wanz',
                 isBanned ? 'Unban' : banned ? 'owner' : 'Menu',
                 isBanned ? '.unban' : banned ? '.owner' : '.?',
                 m.isGroup ? 'Ban' : isBanned ? 'Unban' : 'Donasi',
@@ -26,14 +26,14 @@ handler.all = async function (m, { conn, isBlocked }) {
         this.sendButton(m.chat, `
 ┌「 *Undang Bot ke Grup* 」
 ├ 7 Hari / Rp 5,000
-├ 30 Hari / Rp 15,000
-├ 60 Hari / Rp 25,000
-├ 90 Hari / Rp 30,000
-├ 100 Hari / Rp 40,000
+├ 30 Hari / Rp 10,000
+├ 60 Hari / Rp 15,000
+├ 90 Hari / Rp 25,000
+├ 100 Hari / Rp 30,000
 └────
 
-https://instagram.com/_sekhaa
-`.trim(), '© sekha', 'owner', ',owner', m)
+https://instagram.com/memes.lucu01
+`.trim(), '© Wanz', 'owner', ',owner', m)
     }
 
     // salam
